@@ -1,0 +1,86 @@
+/* css/about.css */
+
+.about-container {
+    max-width: 1000px;
+    margin: 4rem auto;
+    padding: 3rem 2rem;
+    background-color: #fefefe;
+    border-radius: 16px;
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.08);
+    line-height: 1.7;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.about-container h2 {
+    font-size: 2.6rem;
+    margin-bottom: 1rem;
+    color: #0077b6;
+    text-align: center;
+}
+
+.about-container h3 {
+    font-size: 1.6rem;
+    margin-top: 2rem;
+    color: #023e8a;
+}
+
+.about-container p {
+    margin: 1rem 0;
+}
+
+.about-highlight {
+    background-color: #caf0f8;
+    padding: 1rem;
+    border-left: 5px solid #0077b6;
+    border-radius: 10px;
+    margin-top: 2rem;
+    font-weight: bold;
+    color: #03045e;
+}
+
+.team-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.team-member {
+    background-color: #f1f1f1;
+    border-radius: 12px;
+    padding: 1.5rem;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-member:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+}
+
+.team-member h4 {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    color: #0077b6;
+}
+
+.team-member p {
+    font-size: 0.95rem;
+    color: #555;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .team-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-container h2 {
+        font-size: 2rem;
+    }
+}

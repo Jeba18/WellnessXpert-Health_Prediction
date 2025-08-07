@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About | Health Predictor</title>
+  <link rel="stylesheet" href="about.css" />
+</head>
+<body>
+
+  <!-- Navigation Bar (Same for All Pages) -->
+  <header>
+    <nav class="navbar">
+      <div class="nav-brand">HealthPredictor</div>
+      <div class="nav-toggle" onclick="toggleMenu()">☰</div>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="predict.html">Predict</a></li>
+        <li><a href="about.html" class="active">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="admin.html">Admin</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- About Section -->
+  <section class="about-section">
+    <h1>About HealthPredictor</h1>
+    <p>
+      HealthPredictor is an AI-powered health risk assessment platform designed to help users assess the risk of chronic diseases such as:
+    </p>
+    <ul>
+      <li>Heart Disease</li>
+      <li>Diabetes</li>
+      <li>Obesity</li>
+      <li>Asthma</li>
+    </ul>
+    <p>
+      Our system leverages medical data and machine learning algorithms to provide instant risk predictions and lifestyle recommendations.
+    </p>
+    <p>
+      With a simple and user-friendly interface, HealthPredictor empowers individuals to take charge of their health in a proactive way.
+    </p>
+  </section>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById("navMenu").classList.toggle("show");
+    }
+  </script>
+
+</body>
+</html>

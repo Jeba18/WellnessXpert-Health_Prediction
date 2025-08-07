@@ -1,0 +1,84 @@
+/* Predict Page Styles */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+/* Prediction Form Section */
+.predict-container {
+  max-width: 800px;
+  margin: 100px auto 50px auto;
+  padding: 40px;
+  background-color: #fff;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+}
+
+.predict-container h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #004080;
+}
+
+/* Input Group Styling */
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.input-group input,
+.input-group select,
+.input-group textarea {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+.input-group input:focus,
+.input-group select:focus,
+.input-group textarea:focus {
+  border-color: #004080;
+  outline: none;
+}
+
+/* Submit Button */
+button[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 14px;
+  background-color: #004080;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #0059b3;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .predict-container {
+    padding: 20px;
+    margin: 80px 10px 30px 10px;
+  }
+
+  button[type="submit"] {
+    font-size: 16px;
+  }
+}
